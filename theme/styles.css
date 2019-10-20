@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    padding-left: 5px;
+    border-radius: 8x;
+}
+
+header h1 {
+    font-size: 65px;
+    font-style: oblique;
+    padding-left: 550px;
+}
+
+header p {
+    font-style: oblique;
+}
+
+main {
+ font-style: oblique;
+}
+
+footer {
+    background-color: black;
+    border: black;
+    padding-left: 10px;
+    border-radius: 100px;
+}
+footer p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
