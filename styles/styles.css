@@ -63,3 +63,7 @@ nav li {
     display: inline;
     padding: 8px;    
 }
+
+section.clear {
+    clear: both;
+}
