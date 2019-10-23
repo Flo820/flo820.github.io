@@ -1,5 +1,7 @@
 body {
-    background-color: blanchedalmond;;
+    background-color: blanchedalmond;
+    max-width: 500px;
+    margin: auto;
 }
 
 h1 {
@@ -67,3 +69,39 @@ nav li {
 section.clear {
     clear: both;
 }
+
+.btn-padding {
+    padding: 5px;
+    border: 10px green double;    
+    border-radius: 22px;
+}
+
+.btn-padding {
+    border-width: 10px;
+    border-color: green;
+    border-style: double;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}  
+.btn-margin-padding {
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: ridge;
+    border: 15px green;
+
+}
+#button-wrapper {
+    display: inline-block;
+    border: thin black;
+    border-width: 10px;
+    background-color: aquamarine;
+}
+
+.btn-margin-padding:active {
+    color: red;
+}                    
+ 
