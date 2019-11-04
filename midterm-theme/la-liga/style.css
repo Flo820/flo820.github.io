@@ -1,3 +1,9 @@
-figure.messi-image {
+figure.right {
         float: right;
+}
+
+body {
+        max-width: 750px;
+        margin: auto;
+        background-color: lightblue;
 }

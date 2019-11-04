@@ -1,0 +1,11 @@
+figure.right {
+    float: right;
+}
+
+figure.left {
+    float: left;
+}
+body {
+    max-width: 750px;
+    margin: auto;
+}
