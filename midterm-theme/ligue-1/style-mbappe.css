@@ -1,0 +1,12 @@
+figure.right {
+    float: right;
+}
+
+figure.left {
+    float: left;
+}
+body {
+    max-width: 700px;
+    margin: auto;
+    background-color: lightblue;
+}
