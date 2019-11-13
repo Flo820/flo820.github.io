@@ -68,7 +68,7 @@ console.log("values in our object",
 
 divider();
 
-const myObject = {
+myObject = {
     five = 5,
     six = 6,
 };
