@@ -2,6 +2,7 @@ window.onload = () => {
     // All code goes in here.
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
+    const functionReturnDisplay = document.getElementById('functionReturnDisplay');
 
     functionCallsAction.onclick = simple;
     
