@@ -27,7 +27,7 @@ window.onload = () => {
     }
     */
 
-    simpleObject.sayName();
+    //simpleObject.sayName();
 
     simpleObject.dynamicObject = function () {
         console.log("Dynamic Object");
