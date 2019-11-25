@@ -12,7 +12,7 @@ window.onload = () => {
             simpleObjectDisplay.textContent = fullName;
         }
     };
-    simpleObjectFunction.onclick = function () {
+    simpleObjectAction.onclick = function () {
         simpleObject.sayName();
     };
 
