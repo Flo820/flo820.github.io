@@ -1,7 +1,7 @@
 window.onload = () => {
 
     const simpleObjectDisplay = document.getElementById('simpleObjectDisplay');
-    const simpleObjectAction = document.getElementById('simpleObjectAction')
+    const simpleObjectAction = document.getElementById('simpleObjectAction');
 
     const simpleObject = {
         firstName: 'James',
@@ -14,10 +14,10 @@ window.onload = () => {
     };
     simpleObjectFunction.onclick = function () {
         simpleObject.sayName();
-    }
+    };
 
-    //var simple object gave an error(defined variable)
-    //currently gives an erorr of Assignment to constant variable.
+    /**var simple object gave an error(defined variable)
+    currently gives an erorr of Assignment to constant variable.
     simpleObject = {
 
 
@@ -25,12 +25,13 @@ window.onload = () => {
             console.log("Simple Object");
         }
     }
+    */
 
     simpleObject.sayName();
 
     simpleObject.dynamicObject = function () {
         console.log("Dynamic Object");
-    }
+    };
 
     simpleObject.dynamicObject();
 
@@ -38,14 +39,14 @@ window.onload = () => {
         FuntionObject.prototype.sayName = function () {
             console.log("Function Object");
         }
-    }
+    };
     const functionObject = new FunctionObject();
 
     class CustomClass {
         sayName() {
             console.log("Custom Class");
         }
-    }
+    };
 
     const customClass = new customClass();
-}
+};
