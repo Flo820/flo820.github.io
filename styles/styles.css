@@ -105,3 +105,10 @@ section.clear {
     color: red;
 }                    
  
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}
