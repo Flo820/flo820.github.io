@@ -1,15 +1,16 @@
 body {
-    background-color: white;
+    background-color: black;
     max-width: 500px;
     margin: auto;
 }
 
 h1 {
     font-size: 60px;
+    color: white;
 }
 
 h2 {
-    color: black;
+    color: white;
     font-size:20px;
 }
 
@@ -31,7 +32,7 @@ figure.left {
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: white;
     border: black;
     padding-left: 5px;
     border-radius: 8px;
@@ -101,4 +102,12 @@ section.clear {
 
 .greenBackground {
     background-color: green;
+}
+
+#block4 {
+    background-color: white;
+}
+
+.white {
+    color: white;
 }

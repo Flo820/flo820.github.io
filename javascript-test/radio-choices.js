@@ -1,3 +1,4 @@
+window.onload = () => {
 const myForm = document.getElementById('sort-type');
 
 myForm.addEventListener('submit', (event) => {
@@ -22,4 +23,5 @@ const setColor = (className) => {
     }
     currentClass = className;
     element.classList.add(className);
+}
 }
