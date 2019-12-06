@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" id="basic">
+    <link href="../styles/dark-style.css" rel="alternate stylesheet" type="text/css" id="default">
+    <script src="../javascript-test/javascript-for-stylesheet-change.js"></script>
     <link rel="icon" type="image/png" href="../images/favicon.png">
 </head>
 
@@ -19,12 +21,15 @@
         <figure class="image">
             <img src="../images/my-pfp.png" alt="A picture of Me">
         </figure>
-        <p>Hello, my name is Florencio Pacheco but you can also call me by middle name, Antonio. I am a senior at
+        <p class="white">Hello, my name is Florencio Pacheco but you can also call me by middle name, Antonio. I am a senior at
             Lindbergh High School and this will be my second year at Bellevue College as a Running Start Student. I
             would like to major in Computer Science but I am still looking to see if I want to pursue it fully. I am
             still new to programming but I do have a bit if experience with Java and Python. Some personal hobbies of
             mine are playing sports, mostly football or soccer and playing video games during my free time obviously.
         </p>
+
+        <button id="buttonAction" > Change Website Theme</button>
+
     </main>
 
     <nav>
@@ -32,6 +37,7 @@
             <li><a href="../index.html">Home</a></li>
         </ul>
     </nav>
+
 
     <footer>
         <p>copyright &copy; 2019 by Florencio Pacheco</p>
